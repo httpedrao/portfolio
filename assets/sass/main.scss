@@ -1,0 +1,20 @@
+@import 'partials/reboot';
+@import 'partials/layout';
+@import 'partials/typography';
+.logoFill{
+    fill: #000000;
+}
+.white {
+    fill: #ffffff !important;
+}
+.svg_dude {
+    max-width: 700px;
+    min-width: 310px;
+    width: 50vw;
+    margin: 5% 10% -30% 0 !important; 
+}
+@media (max-width: 900px){
+    .svg_dude {
+        margin: 30px 0 !important;
+    }
+}

@@ -1,0 +1,46 @@
+/* grid */
+.container {
+  margin: 0 5vw !important;
+  .row {
+    display: flex;
+    .col {
+      padding: 15px;
+      width: 100%;
+    }
+  }
+}
+/* utils */
+.one__vh {
+  height: 100vh;
+}
+.align__center {
+  align-items: center !important;
+}
+.justify__center {
+    justify-content: center !important;
+}
+.display__flex {
+  display: flex;
+}
+.flex__column {
+    flex-direction: column;
+}
+/* etc */
+.svg-logo-container {
+  svg {
+    min-width: 300px;
+    width: 50vw;
+    max-width: 512px;
+  }
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+}
