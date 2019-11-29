@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="google-site-verification" content="WriRWcc33h1_m8LWl5xAgv3WJocGXsF3q6y9izgfFyg" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="google-site-verification"
+      content="WriRWcc33h1_m8LWl5xAgv3WJocGXsF3q6y9izgfFyg"
+    />
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
     <title>Pedro Queiroz // Desenvolvedor Front End</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-</head>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row one__vh align__center display__flex align__center justify__center">
-            <div class="col display__flex justify__center align__center">
-                <div class="svg-logo-container" style="background-color:rgb(255, 255, 255);"></div>
-            </div>
+      <div
+        class="row one__vh align__center display__flex align__center justify__center"
+      >
+        <div class="col display__flex justify__center align__center">
+          <div
+            class="svg-logo-container"
+            style="background-color:rgb(255, 255, 255);"
+          ></div>
         </div>
-        <div class="row one__vh align__center justify__center">
-            <div class="col"><img src="/assets/img/coding_dude.svg" class="svg_dude"
-                    alt="Illustration of a dude that does not look like me at all."></div>
-            <div class="col display__flex justify__center flex__column">
-                <h3>Oi, você pode me encontrar através destes links:</h3>
-                <a href="mailto:eu@pedroqueiroz.dev" target="_blank"><strong>eu</strong>@pedroqueiroz.dev</a>
-                <a href="https://github.com/pedrosqueiroz" target="_blank"><strong>github.com/</strong>pedrosqueiroz</a>
-                <a href="https://www.linkedin.com/in/pedrosqueiroz/" target="_blank"><strong>linkedin.com/</strong>in/pedrosqueiroz</a>
+      </div>
+      <div class="row one__vh align__center justify__center">
+        <div class="col">
+          <img
+            src="/assets/img/coding_dude.svg"
+            class="svg_dude"
+            alt="Illustration of a dude that does not look like me at all."
+          />
+        </div>
 
-            </div>
+        <div class="col display__flex justify__center flex__column">
+          <h3>Oi, você pode me encontrar através destes links:</h3>
+          <a href="mailto:eu@pedroqueiroz.dev" target="_blank"
+            ><strong>eu</strong>@pedroqueiroz.dev</a
+          >
+          <a href="https://github.com/pedrosqueiroz" target="_blank"
+            ><strong>github.com/</strong>pedrosqueiroz</a
+          >
+          <a href="https://www.linkedin.com/in/pedrosqueiroz/" target="_blank"
+            ><strong>linkedin.com/</strong>in/pedrosqueiroz</a
+          >
         </div>
-        <div class="row footer">
-            <div class="col">
-                <p>made in twenty19 by myself</p>
-            </div>
+      </div>
+      <div class="row footer">
+        <div class="col">
+          <p>made in twenty19 by myself</p>
         </div>
+      </div>
+      <form name="contact" method="POST" netlify>
+        <input type="text" name="message" placeholder="type a message" />
+        <input type="submit" value="send message" />
+      </form>
     </div>
     <script src="/assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
